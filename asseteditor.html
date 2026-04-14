@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en"  manifest="/pxt-arcade/release.manifest" data-framework="typescript">
+<html lang="en"  manifest="/MakeCode-Arcade/release.manifest" data-framework="typescript">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <link rel="stylesheet" data-rtl="/pxt-arcade/rtlsemantic.css" href="/pxt-arcade/semantic.css" type="text/css">
+    <link rel="stylesheet" data-rtl="/MakeCode-Arcade/rtlsemantic.css" href="/MakeCode-Arcade/semantic.css" type="text/css">
     <title>MakeCode Asset Editor</title>
     <style>
         #asset-editor-field-div {
@@ -23,43 +23,43 @@
     <script>
         // This line gets patched up by the cloud
         var pxtConfig = {
-    "relprefix": "/pxt-arcade/",
+    "relprefix": "/MakeCode-Arcade/",
     "verprefix": "",
-    "workerjs": "/pxt-arcade/worker.js",
-    "monacoworkerjs": "/pxt-arcade/monacoworker.js",
-    "gifworkerjs": "/pxt-arcade/gifjs/gif.worker.js",
-    "serviceworkerjs": "/pxt-arcade/serviceworker.js",
-    "typeScriptWorkerJs": "/pxt-arcade/tsworker.js",
+    "workerjs": "/MakeCode-Arcade/worker.js",
+    "monacoworkerjs": "/MakeCode-Arcade/monacoworker.js",
+    "gifworkerjs": "/MakeCode-Arcade/gifjs/gif.worker.js",
+    "serviceworkerjs": "/MakeCode-Arcade/serviceworker.js",
+    "typeScriptWorkerJs": "/MakeCode-Arcade/tsworker.js",
     "pxtVersion": "12.2.24",
     "pxtRelId": "localDirRelId",
-    "pxtCdnUrl": "/pxt-arcade/",
-    "commitCdnUrl": "/pxt-arcade/",
-    "blobCdnUrl": "/pxt-arcade/",
-    "cdnUrl": "/pxt-arcade/",
+    "pxtCdnUrl": "/MakeCode-Arcade/",
+    "commitCdnUrl": "/MakeCode-Arcade/",
+    "blobCdnUrl": "/MakeCode-Arcade/",
+    "cdnUrl": "/MakeCode-Arcade/",
     "targetVersion": "0.0.0",
     "targetRelId": "",
     "targetUrl": "",
     "targetId": "arcade",
-    "simUrl": "/pxt-arcade/simulator.html",
-    "simserviceworkerUrl": "/pxt-arcade/simulatorserviceworker.js",
-    "simworkerconfigUrl": "/pxt-arcade/workerConfig.js",
-    "partsUrl": "/pxt-arcade/siminstructions.html",
-    "runUrl": "/pxt-arcade/run.html",
-    "docsUrl": "/pxt-arcade/docs.html",
-    "multiUrl": "/pxt-arcade/multi.html",
-    "asseteditorUrl": "/pxt-arcade/asseteditor.html",
+    "simUrl": "/MakeCode-Arcade/simulator.html",
+    "simserviceworkerUrl": "/MakeCode-Arcade/simulatorserviceworker.js",
+    "simworkerconfigUrl": "/MakeCode-Arcade/workerConfig.js",
+    "partsUrl": "/MakeCode-Arcade/siminstructions.html",
+    "runUrl": "/MakeCode-Arcade/run.html",
+    "docsUrl": "/MakeCode-Arcade/docs.html",
+    "multiUrl": "/MakeCode-Arcade/multi.html",
+    "asseteditorUrl": "/MakeCode-Arcade/asseteditor.html",
     "isStatic": true,
-    "kioskUrl": "/pxt-arcade/kiosk.html",
-    "teachertoolUrl": "/pxt-arcade/teachertool.html",
-    "tutorialtoolUrl": "/pxt-arcade/tutorialtool.html",
-    "skillmapUrl": "/pxt-arcade/skillmap.html",
-    "multiplayerUrl": "/pxt-arcade/multiplayer.html",
-    "authcodeUrl": "/pxt-arcade/authcode.html"
+    "kioskUrl": "/MakeCode-Arcade/kiosk.html",
+    "teachertoolUrl": "/MakeCode-Arcade/teachertool.html",
+    "tutorialtoolUrl": "/MakeCode-Arcade/tutorialtool.html",
+    "skillmapUrl": "/MakeCode-Arcade/skillmap.html",
+    "multiplayerUrl": "/MakeCode-Arcade/multiplayer.html",
+    "authcodeUrl": "/MakeCode-Arcade/authcode.html"
 };
     </script>
-    <script type="text/javascript" src="/pxt-arcade/targetlight.js"></script>
+    <script type="text/javascript" src="/MakeCode-Arcade/targetlight.js"></script>
     <!-- <script type="text/javascript" src="https://cdn.makecode.com/blob/ec765d3ba50a09c8c8819ec80390b6ffa72e945a/target.js"></script> -->
-    <script type="text/javascript" src="/pxt-arcade/pxtapp.js"></script>
+    <script type="text/javascript" src="/MakeCode-Arcade/pxtapp.js"></script>
     <script>
         pxt.setAppTarget(pxtTargetBundle);
         // This can be overridden via the messages sent to the page
@@ -68,53 +68,53 @@
         // this get rewritten to blob URLs with SHAs while uploading to the cloud
         // keep in sync with index.html
         window.MonacoPaths = {
-            "vs/loader": "/pxt-arcade/vs/loader.js",
-            "vs/base/worker/workerMain": "/pxt-arcade/vs/base/worker/workerMain.js",
-            "vs/basic-languages/bat/bat": "/pxt-arcade/vs/basic-languages/bat/bat.js",
-            "vs/basic-languages/cpp/cpp": "/pxt-arcade/vs/basic-languages/cpp/cpp.js",
-            "vs/basic-languages/markdown/markdown": "/pxt-arcade/vs/basic-languages/markdown/markdown.js",
-            "vs/basic-languages/python/python": "/pxt-arcade/vs/basic-languages/python/python.js",
-            "vs/basic-languages/typescript/typescript": "/pxt-arcade/vs/basic-languages/typescript/typescript.js",
-            "vs/editor/editor.main.css": "/pxt-arcade/vs/editor/editor.main.css",
-            "vs/editor/editor.main": "/pxt-arcade/vs/editor/editor.main.js",
-            "vs/editor/editor.main.nls": "/pxt-arcade/vs/editor/editor.main.nls.js",
-            "vs/language/json/jsonMode": "/pxt-arcade/vs/language/json/jsonMode.js",
-            "vs/language/json/jsonWorker": "/pxt-arcade/vs/language/json/jsonWorker.js",
-            "vs/language/typescript/tsMode": "/pxt-arcade/vs/language/typescript/tsMode.js",
-            "vs/language/typescript/tsWorker": "/pxt-arcade/vs/language/typescript/tsWorker.js",
-            "lzma/lzma_worker-min.js": "/pxt-arcade/lzma/lzma_worker-min.js",
-            "smoothie/smoothie_compressed.js": "/pxt-arcade/smoothie/smoothie_compressed.js",
-            "blockly.css": "/pxt-arcade/blockly.css",
-            "rtlblockly.css": "/pxt-arcade/rtlblockly.css",
-            "gifjs/gif.js": "/pxt-arcade/gifjs/gif.js",
-            "qrcode/qrcode.min.js": "/pxt-arcade/qrcode/qrcode.min.js",
-            "zip.js/zip.min.js": "/pxt-arcade/zip.js/zip.min.js",
-            "pdf-lib/pdf-lib.min.js": "/pxt-arcade/pdf-lib/pdf-lib.min.js",
-            "music-editor/apple.png": "/pxt-arcade/music-editor/apple.png",
-            "music-editor/burger.png": "/pxt-arcade/music-editor/burger.png",
-            "music-editor/cake.png": "/pxt-arcade/music-editor/cake.png",
-            "music-editor/car.png": "/pxt-arcade/music-editor/car.png",
-            "music-editor/cat.png": "/pxt-arcade/music-editor/cat.png",
-            "music-editor/cherry.png": "/pxt-arcade/music-editor/cherry.png",
-            "music-editor/clam.png": "/pxt-arcade/music-editor/clam.png",
-            "music-editor/computer.png": "/pxt-arcade/music-editor/computer.png",
-            "music-editor/crab.png": "/pxt-arcade/music-editor/crab.png",
-            "music-editor/dog.png": "/pxt-arcade/music-editor/dog.png",
-            "music-editor/duck.png": "/pxt-arcade/music-editor/duck.png",
-            "music-editor/egg.png": "/pxt-arcade/music-editor/egg.png",
-            "music-editor/explosion.png": "/pxt-arcade/music-editor/explosion.png",
-            "music-editor/fish.png": "/pxt-arcade/music-editor/fish.png",
-            "music-editor/ice-cream.png": "/pxt-arcade/music-editor/ice-cream.png",
-            "music-editor/lemon.png": "/pxt-arcade/music-editor/lemon.png",
-            "music-editor/snake.png": "/pxt-arcade/music-editor/snake.png",
-            "music-editor/star.png": "/pxt-arcade/music-editor/star.png",
-            "music-editor/strawberry.png": "/pxt-arcade/music-editor/strawberry.png",
-            "music-editor/taco.png": "/pxt-arcade/music-editor/taco.png",
-            "music-editor/bass-clef.svg": "/pxt-arcade/music-editor/bass-clef.svg",
-            "music-editor/treble-clef.svg": "/pxt-arcade/music-editor/treble-clef.svg",
+            "vs/loader": "/MakeCode-Arcade/vs/loader.js",
+            "vs/base/worker/workerMain": "/MakeCode-Arcade/vs/base/worker/workerMain.js",
+            "vs/basic-languages/bat/bat": "/MakeCode-Arcade/vs/basic-languages/bat/bat.js",
+            "vs/basic-languages/cpp/cpp": "/MakeCode-Arcade/vs/basic-languages/cpp/cpp.js",
+            "vs/basic-languages/markdown/markdown": "/MakeCode-Arcade/vs/basic-languages/markdown/markdown.js",
+            "vs/basic-languages/python/python": "/MakeCode-Arcade/vs/basic-languages/python/python.js",
+            "vs/basic-languages/typescript/typescript": "/MakeCode-Arcade/vs/basic-languages/typescript/typescript.js",
+            "vs/editor/editor.main.css": "/MakeCode-Arcade/vs/editor/editor.main.css",
+            "vs/editor/editor.main": "/MakeCode-Arcade/vs/editor/editor.main.js",
+            "vs/editor/editor.main.nls": "/MakeCode-Arcade/vs/editor/editor.main.nls.js",
+            "vs/language/json/jsonMode": "/MakeCode-Arcade/vs/language/json/jsonMode.js",
+            "vs/language/json/jsonWorker": "/MakeCode-Arcade/vs/language/json/jsonWorker.js",
+            "vs/language/typescript/tsMode": "/MakeCode-Arcade/vs/language/typescript/tsMode.js",
+            "vs/language/typescript/tsWorker": "/MakeCode-Arcade/vs/language/typescript/tsWorker.js",
+            "lzma/lzma_worker-min.js": "/MakeCode-Arcade/lzma/lzma_worker-min.js",
+            "smoothie/smoothie_compressed.js": "/MakeCode-Arcade/smoothie/smoothie_compressed.js",
+            "blockly.css": "/MakeCode-Arcade/blockly.css",
+            "rtlblockly.css": "/MakeCode-Arcade/rtlblockly.css",
+            "gifjs/gif.js": "/MakeCode-Arcade/gifjs/gif.js",
+            "qrcode/qrcode.min.js": "/MakeCode-Arcade/qrcode/qrcode.min.js",
+            "zip.js/zip.min.js": "/MakeCode-Arcade/zip.js/zip.min.js",
+            "pdf-lib/pdf-lib.min.js": "/MakeCode-Arcade/pdf-lib/pdf-lib.min.js",
+            "music-editor/apple.png": "/MakeCode-Arcade/music-editor/apple.png",
+            "music-editor/burger.png": "/MakeCode-Arcade/music-editor/burger.png",
+            "music-editor/cake.png": "/MakeCode-Arcade/music-editor/cake.png",
+            "music-editor/car.png": "/MakeCode-Arcade/music-editor/car.png",
+            "music-editor/cat.png": "/MakeCode-Arcade/music-editor/cat.png",
+            "music-editor/cherry.png": "/MakeCode-Arcade/music-editor/cherry.png",
+            "music-editor/clam.png": "/MakeCode-Arcade/music-editor/clam.png",
+            "music-editor/computer.png": "/MakeCode-Arcade/music-editor/computer.png",
+            "music-editor/crab.png": "/MakeCode-Arcade/music-editor/crab.png",
+            "music-editor/dog.png": "/MakeCode-Arcade/music-editor/dog.png",
+            "music-editor/duck.png": "/MakeCode-Arcade/music-editor/duck.png",
+            "music-editor/egg.png": "/MakeCode-Arcade/music-editor/egg.png",
+            "music-editor/explosion.png": "/MakeCode-Arcade/music-editor/explosion.png",
+            "music-editor/fish.png": "/MakeCode-Arcade/music-editor/fish.png",
+            "music-editor/ice-cream.png": "/MakeCode-Arcade/music-editor/ice-cream.png",
+            "music-editor/lemon.png": "/MakeCode-Arcade/music-editor/lemon.png",
+            "music-editor/snake.png": "/MakeCode-Arcade/music-editor/snake.png",
+            "music-editor/star.png": "/MakeCode-Arcade/music-editor/star.png",
+            "music-editor/strawberry.png": "/MakeCode-Arcade/music-editor/strawberry.png",
+            "music-editor/taco.png": "/MakeCode-Arcade/music-editor/taco.png",
+            "music-editor/bass-clef.svg": "/MakeCode-Arcade/music-editor/bass-clef.svg",
+            "music-editor/treble-clef.svg": "/MakeCode-Arcade/music-editor/treble-clef.svg",
         }
     </script>
-    <script type="text/javascript" src="/pxt-arcade/pxtasseteditor.js"></script>
+    <script type="text/javascript" src="/MakeCode-Arcade/pxtasseteditor.js"></script>
     <div id="asset-editor-field-div">
     </div>
 </body>

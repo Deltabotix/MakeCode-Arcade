@@ -1,5 +1,5 @@
 // see https://github.com/Microsoft/monaco-editor
 self.MonacoEnvironment = { 
-    baseUrl: "/pxt-arcade/" 
+    baseUrl: "/MakeCode-Arcade/" 
 };
-importScripts("/pxt-arcade/vs/base/worker/workerMain.js");
+importScripts("/MakeCode-Arcade/vs/base/worker/workerMain.js");

@@ -3,52 +3,52 @@
 
     // This line gets patched up by the cloud
     var pxtConfig = {
-    "relprefix": "/pxt-arcade/",
+    "relprefix": "/MakeCode-Arcade/",
     "verprefix": "",
-    "workerjs": "/pxt-arcade/worker.js",
-    "monacoworkerjs": "/pxt-arcade/monacoworker.js",
-    "gifworkerjs": "/pxt-arcade/gifjs/gif.worker.js",
-    "serviceworkerjs": "/pxt-arcade/serviceworker.js",
-    "typeScriptWorkerJs": "/pxt-arcade/tsworker.js",
+    "workerjs": "/MakeCode-Arcade/worker.js",
+    "monacoworkerjs": "/MakeCode-Arcade/monacoworker.js",
+    "gifworkerjs": "/MakeCode-Arcade/gifjs/gif.worker.js",
+    "serviceworkerjs": "/MakeCode-Arcade/serviceworker.js",
+    "typeScriptWorkerJs": "/MakeCode-Arcade/tsworker.js",
     "pxtVersion": "12.2.24",
     "pxtRelId": "localDirRelId",
-    "pxtCdnUrl": "/pxt-arcade/",
-    "commitCdnUrl": "/pxt-arcade/",
-    "blobCdnUrl": "/pxt-arcade/",
-    "cdnUrl": "/pxt-arcade/",
+    "pxtCdnUrl": "/MakeCode-Arcade/",
+    "commitCdnUrl": "/MakeCode-Arcade/",
+    "blobCdnUrl": "/MakeCode-Arcade/",
+    "cdnUrl": "/MakeCode-Arcade/",
     "targetVersion": "0.0.0",
     "targetRelId": "",
     "targetUrl": "",
     "targetId": "arcade",
-    "simUrl": "/pxt-arcade/simulator.html",
-    "simserviceworkerUrl": "/pxt-arcade/simulatorserviceworker.js",
-    "simworkerconfigUrl": "/pxt-arcade/workerConfig.js",
-    "partsUrl": "/pxt-arcade/siminstructions.html",
-    "runUrl": "/pxt-arcade/run.html",
-    "docsUrl": "/pxt-arcade/docs.html",
-    "multiUrl": "/pxt-arcade/multi.html",
-    "asseteditorUrl": "/pxt-arcade/asseteditor.html",
+    "simUrl": "/MakeCode-Arcade/simulator.html",
+    "simserviceworkerUrl": "/MakeCode-Arcade/simulatorserviceworker.js",
+    "simworkerconfigUrl": "/MakeCode-Arcade/workerConfig.js",
+    "partsUrl": "/MakeCode-Arcade/siminstructions.html",
+    "runUrl": "/MakeCode-Arcade/run.html",
+    "docsUrl": "/MakeCode-Arcade/docs.html",
+    "multiUrl": "/MakeCode-Arcade/multi.html",
+    "asseteditorUrl": "/MakeCode-Arcade/asseteditor.html",
     "isStatic": true,
-    "kioskUrl": "/pxt-arcade/kiosk.html",
-    "teachertoolUrl": "/pxt-arcade/teachertool.html",
-    "tutorialtoolUrl": "/pxt-arcade/tutorialtool.html",
-    "skillmapUrl": "/pxt-arcade/skillmap.html",
-    "multiplayerUrl": "/pxt-arcade/multiplayer.html",
-    "authcodeUrl": "/pxt-arcade/authcode.html"
+    "kioskUrl": "/MakeCode-Arcade/kiosk.html",
+    "teachertoolUrl": "/MakeCode-Arcade/teachertool.html",
+    "tutorialtoolUrl": "/MakeCode-Arcade/tutorialtool.html",
+    "skillmapUrl": "/MakeCode-Arcade/skillmap.html",
+    "multiplayerUrl": "/MakeCode-Arcade/multiplayer.html",
+    "authcodeUrl": "/MakeCode-Arcade/authcode.html"
 };
 
     var scripts = [
-        "/pxt-arcade/highlight.js/highlight.pack.js",
-        "/pxt-arcade/marked/marked.min.js",
+        "/MakeCode-Arcade/highlight.js/highlight.pack.js",
+        "/MakeCode-Arcade/marked/marked.min.js",
     ]
 
     if (typeof jQuery == "undefined")
-        scripts.unshift("/pxt-arcade/jquery.js")
+        scripts.unshift("/MakeCode-Arcade/jquery.js")
     if (typeof jQuery == "undefined" || !jQuery.prototype.sidebar)
-        scripts.push("/pxt-arcade/semantic.js")
+        scripts.push("/MakeCode-Arcade/semantic.js")
     if (!window.pxtTargetBundle)
-        scripts.push("/pxt-arcade/target.js");
-    scripts.push("/pxt-arcade/pxtembed.js");
+        scripts.push("/MakeCode-Arcade/target.js");
+    scripts.push("/MakeCode-Arcade/pxtembed.js");
 
     var pxtCallbacks = []
 
