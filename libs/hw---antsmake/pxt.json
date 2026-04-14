@@ -1,0 +1,43 @@
+{
+    "name": "hw---antsmake",
+    "description": "Ants Make micro:bit V2 + ST7735 TFT shield (direct SPI)",
+    "files": [
+        "config.ts",
+        "device.d.ts"
+    ],
+    "card": {
+        "name": "Ants Make",
+        "description": "micro:bit V2 with 1.8\" ST7735 SPI TFT and GPIO buttons",
+        "learnMoreUrl": "https://github.com/microsoft/pxt-arcade",
+        "cardType": "hw",
+        "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAB4BAMAAACHjORcAAAAD1BMVEX/gTX///8knKOkg58AAADai7jeAAAB3UlEQVRo3u2Wi3HDIAxAzQaWNhArNBuk+89U9ImNHahdrCZOgs7Hid9DEmAxfDnL0IEd+EDg93deqhwBXgCuWalyfXdgipkvMAEUKJsiC3gBpxCcDsiOXu1UOgAZYpjLpB06NpdXAzrc5XxTbrrH1VscC58V6BmFPc/tnuSOn71zg0sJPr+WOrADuzADnwxYHSWDvxUIM4qxQj33QTSLAoByjhUZQuISHlV1iCZnj5TpBExUm4hcHcqb59ahwLD9XKoHFN0LNkkA3IHGzOtPbkRbeFZALiZVBGyKrbyDJSpBkSOkVmIsWwhTqaaNzmQXY65y+IAoMS96HLR/Eg25R+sN8SSPL6R0fg+qaeEAhywNuB5A7ENuB657JtbYshxioQvYHgBIRJsNB4CAj3uYeOAdEbCO5AfLqFfNgAPGNYyO7tuwx+TkurCyew11Ayc/2BKGNm7IfSBRrQGwC6tAiMLYBYw2IDcA5/LTxx94HrP/wqw/TxwKheMkOAP8iHXhC4P6s15/ETwZ2+UcJi9pY73okMMAwjlzax5SgLVyO1njrUoUH1GQMAgQ2Jin8AU8Koic1VZddWuUBvwDHYZ4FbJ8Bkxmw7toGBrFhdlk8ShHj9jDHYaHIgM+WH/pHX7EAVIxFAAAAAElFTkSuQmCC"
+    },
+    "compileServiceVariant": "nrf52833",
+    "cppDependencies": {
+        "accelerometer": "file:../accelerometer"
+    },
+    "dependencies": {
+        "core---nrf52": "file:../core---nrf52",
+        "screen---st7735": "file:../screen---st7735",
+        "mixer---nrf52": "file:../mixer---nrf52",
+        "game": "file:../game"
+    },
+    "public": true,
+    "skipLocalization": true,
+    "additionalFilePath": "../hw",
+    "yotta": {
+        "optionalConfig": {
+            "DEVICE_JACDAC_DEBUG": 1
+        },
+        "config": {
+            "DEVICE_USB": 0,
+            "DEVICE_WEBUSB": 0,
+            "DEVICE_BLE": 0,
+            "ARCADE_MBIT_CODAL": 1,
+            "MICROBIT_CODAL": 0
+        }
+    },
+    "dalDTS": {
+        "corePackage": "../core---nrf52"
+    }
+}

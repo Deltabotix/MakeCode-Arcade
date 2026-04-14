@@ -12,5 +12,8 @@
         "*/*.ts",
         "../node_modules/pxt-common-packages/libs/*/*.ts",
         "../node_modules/pxt-core/libs/pxt-common/*.ts"
+    ],
+    "exclude": [
+        "hw---antsmake"
     ]
 }
