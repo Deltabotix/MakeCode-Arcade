@@ -1,0 +1,91 @@
+CACHE MANIFEST
+
+CACHE:
+/pxt-arcade/semantic.js
+/pxt-arcade/main.js
+/pxt-arcade/pxtapp.js
+/pxt-arcade/typescript.js
+/pxt-arcade/marked/marked.min.js
+/pxt-arcade/highlight.js/highlight.pack.js
+/pxt-arcade/jquery.js
+/pxt-arcade/pxtlib.js
+/pxt-arcade/pxtcompiler.js
+/pxt-arcade/pxtpy.js
+/pxt-arcade/pxteditor.js
+/pxt-arcade/pxtsim.js
+/pxt-arcade/pxtembed.js
+/pxt-arcade/pxtworker.js
+/pxt-arcade/pxtweb.js
+/pxt-arcade/blockly.css
+/pxt-arcade/semantic.css
+/pxt-arcade/rtlsemantic.css
+
+
+/pxt-arcade/editor.js
+
+
+# blockly
+/pxt-arcade/blockly/media/sprites.png
+/pxt-arcade/blockly/media/click.mp3
+/pxt-arcade/blockly/media/disconnect.wav
+/pxt-arcade/blockly/media/delete.mp3
+
+# monaco; keep in sync with webapp/public/index.html
+/pxt-arcade/vs/loader.js
+/pxt-arcade/vs/base/worker/workerMain.js
+/pxt-arcade/vs/basic-languages/bat/bat.js
+/pxt-arcade/vs/basic-languages/cpp/cpp.js
+/pxt-arcade/vs/basic-languages/python/python.js
+/pxt-arcade/vs/basic-languages/typescript/typescript.js
+/pxt-arcade/vs/basic-languages/markdown/markdown.js
+/pxt-arcade/vs/editor/editor.main.css
+/pxt-arcade/vs/editor/editor.main.js
+/pxt-arcade/vs/editor/editor.main.nls.js
+/pxt-arcade/vs/language/json/jsonMode.js
+/pxt-arcade/vs/language/json/jsonWorker.js
+/pxt-arcade/vs/language/typescript/tsMode.js
+/pxt-arcade/vs/language/typescript/tsWorker.js
+
+# charts
+/pxt-arcade/smoothie/smoothie_compressed.js
+/pxt-arcade/images/Bars_black.gif
+
+# gifjs
+/pxt-arcade/gifjs/gif.js
+
+# ai
+/pxt-arcade/ai.0.js
+
+/pxt-arcade/worker.js
+/pxt-arcade/monacoworker.js
+
+# ver Tue Apr 14 2026 16:07:11 GMT+0530 (India Standard Time)
+
+# target
+/pxt-arcade/docs\static\providers\github-mark.png
+/pxt-arcade/docs\static\providers\microsoft-logo.svg
+/pxt-arcade/docs\static\providers\google-logo.svg
+/pxt-arcade/docs\static\providers\clever-logo.png
+/pxt-arcade/docs\static\logo.svg
+/pxt-arcade/docs\static\logo.png
+/pxt-arcade/docs\static\icons\favicon.ico
+/pxt-arcade/docs\static\Micorsoft_logo_rgb_W-white_D-square.png
+/pxt-arcade/docs\static\Micorsoft_logo_rgb_W-white_D.png
+/pxt-arcade/docs\static\hero-gallery\skillmap.png
+/pxt-arcade/docs\static\badges\badge-forest.png
+/pxt-arcade/docs\static\badges\badge-forest-locked.png
+/pxt-arcade/docs\static\badges\badge-zoo.png
+/pxt-arcade/docs\static\badges\badge-zoo-locked.png
+/pxt-arcade/docs\static\badges\badge-rockstar.png
+/pxt-arcade/docs\static\badges\badge-rockstar-locked.png
+/pxt-arcade/docs\static\badges\badge-jungle.png
+/pxt-arcade/docs\static\badges\badge-jungle-locked.png
+/pxt-arcade/docs\static\badges\badge-space.png
+/pxt-arcade/docs\static\badges\badge-space-locked.png
+/pxt-arcade/docs\static\badges\badge-shark.png
+/pxt-arcade/docs\static\badges\badge-shark-locked.png
+
+/pxt-arcade/target.js
+
+NETWORK:
+*
